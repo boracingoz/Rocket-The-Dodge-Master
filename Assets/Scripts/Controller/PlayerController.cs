@@ -1,4 +1,5 @@
 using Inputs;
+using Movements;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,16 +8,16 @@ namespace Controller
 {
     public class PlayerController : MonoBehaviour
     {
-        [SerializeField] float _force;
 
-        private Rigidbody _rb;
-        DefaultInput _input;
-        bool _isForceUp;
+        private DefaultInput _input;
+        private bool _isForceUp;
+
+        private Mover _mover;
 
         private void Awake()
         {
-            _rb = GetComponent<Rigidbody>();
             _input = new DefaultInput();
+            _mover = new Mover(GetComponent<Rigidbody>());
         }
 
         private void Update()
@@ -36,7 +37,7 @@ namespace Controller
         {
             if (_isForceUp)
             {
-                _rb.AddForce(Vector3.up * Time.deltaTime * _force);
+                _mover.FixedTick();
             }
         }
     }

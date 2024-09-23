@@ -10,12 +10,14 @@ namespace Inputs
         DefaultAction _input;
 
         public bool isForceUp { get; private set; }
+        public float LeftRight { get; private set; }
 
         public DefaultInput()
         {
             _input = new DefaultAction();
             //anonim meth
             _input.Rocket.ForceUp.performed += context => isForceUp = context.ReadValueAsButton();
+            _input.Rocket.LeftRight.performed += contex => LeftRight = contex.ReadValue<float>();
 
             _input.Enable();
         }

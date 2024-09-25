@@ -41,11 +41,13 @@ namespace Controller
         private void OnEnable()
         {
             GameManager.Instance.OnGameOver += HandlerOnEventTriggered;
+            GameManager.Instance.OnMissionSucced += HandlerOnEventTriggered;
         }
 
         private void OnDisable()
         {
             GameManager.Instance.OnGameOver -= HandlerOnEventTriggered;
+            GameManager.Instance.OnMissionSucced -= HandlerOnEventTriggered;
         }
 
         private void Update()

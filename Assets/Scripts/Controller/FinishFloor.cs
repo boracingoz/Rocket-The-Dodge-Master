@@ -23,11 +23,12 @@ namespace Controller
             {
                 _finishLights.gameObject.SetActive(true);
                 _fireWorks.gameObject.SetActive(true);
+                GameManager.Instance.MissionSucced();
             }
             else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                //GameManager.Instance.GameOver();
+                 GameManager.Instance.GameOver();
+
             }
 
         }

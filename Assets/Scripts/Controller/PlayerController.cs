@@ -1,5 +1,7 @@
 using Inputs;
+using Manager;
 using Movements;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,7 +20,8 @@ namespace Controller
         private float _leftRight;
         private Rotator _rotator;
         private Fuel _fuel;
-
+        private bool _canMove;
+        
         public float TurnSpeed => turnSpeed;
         public float Force => _force;
 
@@ -30,8 +33,28 @@ namespace Controller
             _fuel = GetComponent<Fuel>();   
         }
 
+        private void Start()
+        {
+            _canMove = true;
+        }
+
+        private void OnEnable()
+        {
+            GameManager.Instance.OnGameOver += HandlerOnEventTriggered;
+        }
+
+        private void OnDisable()
+        {
+            GameManager.Instance.OnGameOver -= HandlerOnEventTriggered;
+        }
+
         private void Update()
         {
+            if (!_canMove)
+            {
+                return;
+            }
+
             if (_input.isForceUp && !_fuel.IsEmpty)
             {
                 _canForceup = true;
@@ -54,6 +77,14 @@ namespace Controller
             }
 
             _rotator.FixedTick(_leftRight);
+        }
+
+        private void HandlerOnEventTriggered()
+        {
+            _canMove = false;
+            _canForceup = false;
+            _leftRight = 0f;
+            _fuel.FuelIncrease(0f);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Manager;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -25,8 +26,8 @@ namespace Controller
             }
             else
             {
-                //GameOver!
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                //GameManager.Instance.GameOver();
             }
 
         }

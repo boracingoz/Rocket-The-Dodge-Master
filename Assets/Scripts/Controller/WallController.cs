@@ -14,7 +14,7 @@ namespace Controller
             if (player != null)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            }
+            }   
         }
     }
 }

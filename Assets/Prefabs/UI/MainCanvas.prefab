@@ -279,6 +279,7 @@ GameObject:
   - component: {fileID: 629376174}
   - component: {fileID: 629376176}
   - component: {fileID: 629376175}
+  - component: {fileID: 1354840824857422984}
   m_Layer: 5
   m_Name: MenuPanel
   m_TagString: Untagged
@@ -346,6 +347,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1354840824857422984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629376173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e845be0373bcff44ab3a079b2945bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1357131590
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +479,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1357131593}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1354840824857422984}
+        m_TargetAssemblyTypeName: UI.MenuPanel, Assembly-CSharp
+        m_MethodName: ExitBTN
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1807884509
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,7 +612,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1807884512}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1354840824857422984}
+        m_TargetAssemblyTypeName: UI.MenuPanel, Assembly-CSharp
+        m_MethodName: StartBTN
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1857813290
 GameObject:
   m_ObjectHideFlags: 0

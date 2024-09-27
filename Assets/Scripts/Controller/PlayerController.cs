@@ -25,6 +25,8 @@ namespace Controller
         public float TurnSpeed => turnSpeed;
         public float Force => _force;
 
+        public bool CanMove => _canMove;
+
         private void Awake()
         {
             _input = new DefaultInput();

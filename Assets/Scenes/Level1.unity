@@ -235,6 +235,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 993508453, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1901994228, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4994016948445338006, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
       propertyPath: m_Name
       value: GameCanvas

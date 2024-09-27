@@ -9,8 +9,7 @@ namespace UI
     {
         public void YesBTN()
         {
-            //GameManager.Instance.LoadLevelScene();
-            Debug.Log("Yeni levela geçiliyor");
+            GameManager.Instance.LoadLevelScene();
         }
 
         public void NoBTN()

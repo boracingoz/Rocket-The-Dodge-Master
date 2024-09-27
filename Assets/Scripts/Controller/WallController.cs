@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 namespace Controller
 {
-    public class WallController : MonoBehaviour
+    public abstract class WallController : MonoBehaviour
     {
         private void OnCollisionEnter(Collision other)
         {

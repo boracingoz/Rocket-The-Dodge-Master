@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StaticWallController
       objectReference: {fileID: 0}
+    - target: {fileID: 2287607931256637104, guid: ae40afe7c6587e24e98a9451a80ee48a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2287607931256637108, guid: ae40afe7c6587e24e98a9451a80ee48a, type: 3}
       propertyPath: m_RootOrder
       value: 0

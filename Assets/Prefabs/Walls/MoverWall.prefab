@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8023949532518141287}
   - component: {fileID: 8023949532518141284}
   - component: {fileID: 698144832}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MoverWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,3 +110,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _direction: {x: 5, y: -3, z: 0}
   _factor: 0
+  _speed: 1

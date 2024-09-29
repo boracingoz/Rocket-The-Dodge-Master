@@ -12,6 +12,7 @@ namespace Movements
         [SerializeField] ParticleSystem _particle;
 
         public bool IsEmpty => _curFuel < 1f;
+        public float CurrentFuel => _curFuel / _maxFuel;
 
         private void Awake()
         {

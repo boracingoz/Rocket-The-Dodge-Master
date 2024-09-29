@@ -399,13 +399,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 993508453, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 2641614249020181092, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1901994228, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 2641614249020181092, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460641539338727756, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460641539338727756, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4460641539338727756, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4994016948445338006, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
       propertyPath: m_Name

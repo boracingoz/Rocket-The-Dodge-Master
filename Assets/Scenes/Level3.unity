@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StaticWallTop2
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!4 &348568199 stripped
@@ -288,6 +292,10 @@ PrefabInstance:
     - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
       propertyPath: m_Name
       value: StaticWallRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
@@ -399,6 +407,10 @@ PrefabInstance:
     - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
       propertyPath: m_Name
       value: BlockWall2
+      objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
@@ -552,7 +564,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1177378953
 Transform:
@@ -754,7 +766,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1553977326
 Transform:
@@ -932,6 +944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StaticWallLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!4 &1609473191 stripped
@@ -1096,6 +1112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockWall
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!4 &1935097740 stripped
@@ -1170,6 +1190,10 @@ PrefabInstance:
     - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
       propertyPath: m_Name
       value: StaticWallBottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}

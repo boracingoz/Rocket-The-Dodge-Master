@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockWall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!4 &26075890 stripped
@@ -290,6 +294,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _direction: {x: 0, y: -16, z: 0}
   _speed: 6.8
+--- !u!135 &42423875
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42423873}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.008689581
+  m_Center: {x: 0.00089149986, y: 0.0034109668, z: 0.0007759997}
 --- !u!1001 &54641048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -300,6 +317,10 @@ PrefabInstance:
     - target: {fileID: 764094664080606098, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
       propertyPath: m_Name
       value: Meteor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 764094664080606098, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 764094664080646066, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
       propertyPath: m_RootOrder
@@ -410,6 +431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockWall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!1001 &147383151
@@ -475,6 +500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockWall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!1001 &210586904
@@ -539,6 +568,10 @@ PrefabInstance:
     - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
       propertyPath: m_Name
       value: StaticWallTop2
+      objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
@@ -609,6 +642,10 @@ PrefabInstance:
     - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
       propertyPath: m_Name
       value: BlockWall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
@@ -814,6 +851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StaticWallRight
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!4 &474846869 stripped
@@ -993,6 +1034,10 @@ PrefabInstance:
     - target: {fileID: 764094664080606098, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
       propertyPath: m_Name
       value: Meteor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 764094664080606098, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 764094664080646066, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
       propertyPath: m_RootOrder
@@ -1398,6 +1443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StaticWallTop2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!1 &1256524197 stripped
@@ -1456,6 +1505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 764094664080606098, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 764094664080646066, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1509,13 +1562,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 112749710, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 850437257, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_text
+      value: 'You finished the game!
+
+        You''re the ruler of this game!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 850437257, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_margin.w
+      value: -104.8952
+      objectReference: {fileID: 0}
     - target: {fileID: 993508453, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1633165035, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 177.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1901994228, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2105747814, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 312.25
       objectReference: {fileID: 0}
     - target: {fileID: 2641614249020181092, guid: 34471b27ffa93c6458dfe23fb93cc455, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1782,7 +1857,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1553977326
 Transform:
@@ -1972,6 +2047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StaticWallLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!4 &1609473191 stripped
@@ -2141,6 +2220,10 @@ PrefabInstance:
     - target: {fileID: 764094664080606098, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
       propertyPath: m_Name
       value: Meteor
+      objectReference: {fileID: 0}
+    - target: {fileID: 764094664080606098, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 764094664080646066, guid: 11f0456be0c9bc541b934c6fa935a829, type: 3}
       propertyPath: m_RootOrder
@@ -2343,6 +2426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockWall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
 --- !u!4 &2080134197 stripped
@@ -2412,6 +2499,10 @@ PrefabInstance:
     - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
       propertyPath: m_Name
       value: StaticWallBottom
+      objectReference: {fileID: 0}
+    - target: {fileID: 635864424131740687, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ee03ec04d316a742b189bb8b3436a98, type: 3}

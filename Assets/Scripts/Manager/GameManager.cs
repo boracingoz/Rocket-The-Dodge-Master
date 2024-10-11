@@ -54,7 +54,6 @@ namespace Manager
 
         public void Exit()
         {
-            Debug.Log("Exit the game...");
             Application.Quit();
         }
     }
